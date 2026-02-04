@@ -1,84 +1,113 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo da Maria Clara</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-</head>
-<body>
-    <header>
-        <div id="cabeçalho">
-            <h1>Maria Clara Batista</h1>
-            <p><br>Estudante de segurança cibernética, com foco em blue team e análise de malware.</p>
-        </div>    
-        <nav>
-            <ul id="nav-bar">
-                <li><a href="#sobre-mim">Sobre Mim</a></li>
-                <li><a href="#formacao-academica">Formação Acadêmica</a></li>
-                <li><a href="#experiencia-profissional">Experiência Profissional</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="sobre-mim">
-        <h2>Sobre Mim</h2>
-        <p>Olá! Meu nome é Maria Clara, tenho 17 anos e sou apaixonada por tecnologia e segurança cibernética. Atualmente, estou me especializando em blue team e análise de malware, buscando sempre aprimorar meus conhecimentos e habilidades na área.</p>
-    </div>
-    <div id="formacao-academica">
-        <h2>Formação Acadêmica</h2>
-        <ul>
-            <li>
-                <h3>Análise e Desenvolvimento de Sistemas</h3>
-                <span>2026 – 2028</span>
-                <p>
-                    Graduação focada em lógica de programação, desenvolvimento de software,
-                    bancos de dados e fundamentos de TI, com ênfase em resolução de problemas
-                    e pensamento computacional.
-                </p>
-            </li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><title>maria@clara:~$ whoami</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="/favicon.ico">
+  </head>
+ <header class="terminal-header">
+  <h1>maria@clara:~$ <span class="cursor">|</span></h1>
+  <p>blue team • malware analysis • linux</p>
 
-            <li>
-                <h3>Licenciatura em Matemática</h3>
-                <span>2026 – 2030</span>
-                <p>
-                    Formação sólida em raciocínio lógico, matemática aplicada e estruturação
-                    de problemas, com forte capacidade analítica e domínio de conceitos quantitativos.
-                </p>
-            </li>
-        </ul>
-    </div>
-    <div id="experiencia-profissional">
-        <h2>Experiência Profissional</h2>
-        <ul>
-            <li>
-                <h3>Freelancer em Suporte Remoto Nível 1</h3>
-                <span>(2025 - )</span>
-                <p>
-                        Atuação em suporte técnico remoto, realizando diagnóstico e resolução de problemas 
-                        básicos de software, sistema operacional, conectividade e orientação a usuários, 
-                        com foco em atendimento claro, ágil e eficaz.
-                </p>
-            </li>
-        </ul>
-    </div>
-    <div id="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Python, Blue Team, Pentest</li>
-            <li>Linux, PowerShll, Redes</li>
-            <li>Git, GitHub</li>
-        </ul>
-    </div>
-    <div id="contato">
-        <h2>Contato</h2>
-        <p>Email:
+  <div class="command-hints">
+    [H] home &nbsp;&nbsp; [K] search
+  </div>
+</header>
 
+<main class="filesystem">
+  <section class="fs-node">
+    <button class="folder" data-target="sobre">
+      📁 sobre-mim/
+    </button>
+    <div class="folder-content hidden" id="sobre">
+      <p>
+        Estudante de segurança cibernética focada em Blue Team e análise de malware.
+        Perfil analítico, orientação defensiva e mentalidade de investigação.
+      </p>
     </div>
-    <footer>
-        <p>© 2026 Maria Clara. Todos os direitos reservados.</p>
-    </footer>
+  </section>
+
+  <section class="fs-node">
+    <button class="folder" data-target="formacao">
+      📁 formacao-academica/
+    </button>
+    <div class="folder-content hidden" id="formacao">
+      <pre>
+ADS (2026–2028)
+- lógica
+- bancos de dados
+- engenharia de software
+
+Lic. Matemática (2026–2030)
+- raciocínio lógico
+- análise quantitativa
+      </pre>
+    </div>
+  </section>
+  <section class="fs-node">
+    <button class="folder" data-target="projetos">
+      📁 projetos/
+    </button>
+    <div class="folder-content hidden" id="projetos">
+      <pre class="log">
+[2025-01-12 21:43] project: portfolio
+status: active
+stack: html css js
+goal: learn structure without frameworks
+      </pre>
+    </div>
+  </section>
+  <section class="fs-node">
+    <button class="folder" data-target="experiencia">
+      📁 experiencia/
+    </button>
+    <div class="folder-content hidden" id="experiencia">
+      <p>
+        Suporte remoto nível 1.
+        Diagnóstico de software, SO, conectividade e orientação técnica.
+      </p>
+    </div>
+  </section>
+  <section class="fs-node">
+    <button class="folder" data-target="skills">
+      📁 habilidades/
+    </button>
+    <div class="folder-content hidden" id="skills">
+      <ul>
+        <li>Python</li>
+        <li>Linux</li>
+        <li>Blue Team</li>
+        <li>Git / GitHub</li>
+      </ul>
+    </div>
+  </section>
+  <section class="fs-node">
+    <button class="folder" data-target="contato">
+      📁 contato/
+    </button>
+    <div class="folder-content hidden" id="contato">
+
+      <button class="file" data-link="mailto:seuemail@email.com">
+        📄 email.exec
+      </button>
+
+      <button class="file" data-link="https://www.linkedin.com/in/maria-clara-developer/">
+        📄 linkedin.exec
+      </button>
+
+      <button class="file" data-link="https://github.com/seugithub">
+        📄 github.exec
+      </button>
+    </div>
+  </section>
+
+</main>
+
+<div id="search-box" class="search hidden">
+  <input type="text" placeholder="find --name &lt;term&gt;" />
+</div>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
