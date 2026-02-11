@@ -3,111 +3,133 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><title>maria@clara:~$ whoami</title>
+    <title>maria@contabil:~$ whoami</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="icon" href="/favicon.ico">
   </head>
- <header class="terminal-header">
-  <h1>maria@clara:~$ <span class="cursor">|</span></h1>
-  <p>blue team • malware analysis • linux</p>
+
+<body>
+
+<header class="terminal-header">
+  <h1>maria@contabil:~$ <span class="cursor">|</span></h1>
+  <p>ciências contábeis • unipam • gestão tributária</p>
 
   <div class="command-hints">
-    [H] home &nbsp;&nbsp; [K] search
+    [H] home &nbsp;&nbsp; [K] buscar
   </div>
 </header>
 
 <main class="filesystem">
+
+  <!-- SOBRE -->
   <section class="fs-node">
     <button class="folder" data-target="sobre">
       📁 sobre-mim/
     </button>
     <div class="folder-content hidden" id="sobre">
       <p>
-        Estudante de segurança cibernética focada em Blue Team e análise de malware.
-        Perfil analítico, orientação defensiva e mentalidade de investigação.
+        Estudante de Ciências Contábeis na UNIPAM.
+        Foco em gestão tributária, contabilidade empresarial e análise financeira.
+        Perfil analítico, organizado e orientado à estratégia empresarial.
       </p>
     </div>
   </section>
 
+  <!-- FORMAÇÃO -->
   <section class="fs-node">
     <button class="folder" data-target="formacao">
       📁 formacao-academica/
     </button>
     <div class="folder-content hidden" id="formacao">
       <pre>
-Ciências da Computação (2026–2030)
-- lógica
-- bancos de dados
-- engenharia de software
+Ciências Contábeis – UNIPAM (2026–2030)
 
-Matemática (2026–2030)
-- raciocínio lógico
-- análise quantitativa
+Principais áreas de estudo:
+- Contabilidade Empresarial
+- Contabilidade de Custos
+- Gestão Tributária
+- Legislação Fisco-Tributária
+- Contabilidade Pública
+- Lei de Responsabilidade Fiscal
       </pre>
     </div>
   </section>
+
+  <!-- PROJETOS -->
   <section class="fs-node">
     <button class="folder" data-target="projetos">
-      📁 projetos/
+      📁 projetos-contabeis/
     </button>
     <div class="folder-content hidden" id="projetos">
       <pre class="log">
-[2025-01-12 21:43] project: portfolio
-status: active
-stack: html css js
-goal: learn structure without frameworks
+[2026-03-10] projeto: simulacao-regime-tributario
+status: em desenvolvimento
+descricao: comparativo entre Simples Nacional e Lucro Presumido
+
+[2026-04-02] projeto: fluxo-de-caixa
+status: ativo
+descricao: modelo estruturado de controle financeiro empresarial
+
+[2026-04-20] projeto: dre-empresarial
+status: planejamento
+descricao: demonstracao de resultado do exercicio (modelo pratico)
       </pre>
     </div>
   </section>
+
+  <!-- EXPERIÊNCIA -->
   <section class="fs-node">
     <button class="folder" data-target="experiencia">
       📁 experiencia/
     </button>
     <div class="folder-content hidden" id="experiencia">
       <p>
-        Suporte remoto nível 1.
-        Diagnóstico de software, SO, conectividade e orientação técnica.
+        Interesse em estágio na área contábil.
+        Desenvolvimento contínuo em Excel avançado e sistemas de gestão financeira.
       </p>
     </div>
   </section>
+
+  <!-- HABILIDADES -->
   <section class="fs-node">
     <button class="folder" data-target="habilidades">
-      📁 habilidades/
+      📁 habilidades-tecnicas/
     </button>
     <div class="folder-content hidden" id="habilidades">
       <ul>
-        <li>Python</li>
-        <li>Linux</li>
-        <li>Blue Team</li>
-        <li>Git / GitHub</li>
+        <li>Excel (tabelas dinâmicas, fórmulas condicionais)</li>
+        <li>Análise de Demonstrações Contábeis</li>
+        <li>Noções de Gestão Tributária</li>
+        <li>Organização Financeira Empresarial</li>
       </ul>
     </div>
   </section>
+
+  <!-- CONTATO -->
   <section class="fs-node">
     <button class="folder" data-target="contato">
       📁 contato/
     </button>
     <div class="folder-content hidden" id="contato">
 
-      <button class="file" data-link="mailto:mariaclaratrabalhos@proton.me">
+      <button class="file" data-link="mailto:seuemail@email.com">
         📄 email.exec
       </button>
 
-      <button class="file" data-link="https://www.linkedin.com/in/maria-clara-developer/">
+      <button class="file" data-link="https://www.linkedin.com/in/seu-link">
         📄 linkedin.exec
       </button>
 
-      <button class="file" data-link="https://github.com/seugithub">
-        📄 github.exec
-      </button>
     </div>
   </section>
 
 </main>
 
 <div id="search-box" class="search hidden">
-  <input type="text" placeholder="find --name &lt;term&gt;" />
+  <input type="text" placeholder="buscar --area &lt;tema&gt;" />
 </div>
+
 <script src="assets/js/script.js"></script>
+
 </body>
 </html>
