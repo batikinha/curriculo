@@ -1,8 +1,13 @@
-# maria@clara:~$
+# maria@contabil:~$
 
-Currículo interativo em estética de terminal.
+Currículo interativo com estética de terminal.
 
-Projeto pessoal focado em **segurança cibernética (Blue Team)**, explorando UI como sistema e código sem dependências.
+Projeto pessoal desenvolvido para apresentar minha trajetória em Ciências Contábeis de forma estruturada e organizada, aplicando lógica e clareza visual à comunicação profissional.
+
+**Foco:** Contabilidade Empresarial • Gestão Tributária • Análise Financeira  
 
 **Stack:** HTML • CSS • JavaScript  
-**Status:** ACTIVE
+
+**Objetivo:** Demonstrar organização, autonomia e construção de portfólio técnico.  
+
+**Status:** EM DESENVOLVIMENTO
